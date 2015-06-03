@@ -2,7 +2,7 @@
 
 var through = require('through2');
 var jade = require('jade');
-var jadePhp = require('jade-php');
+var jadePhp = require('jade-drupal');
 var ext = require('gulp-util').replaceExtension;
 var PluginError = require('gulp-util').PluginError;
 

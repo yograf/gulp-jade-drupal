@@ -1,30 +1,31 @@
 {
-  "name": "gulp-jade-php",
+  "name": "gulp-jade-drupal",
   "version": "1.1.0",
-  "description": "compile jade php",
+  "description": "compile jade drupal",
   "main": "index.js",
   "scripts": {
     "test": "tap ./test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oroce/gulp-jade-php.git"
+    "url": "https://github.com/yograf/gulp-jade-drupal.git"
   },
   "keywords": [
     "jade",
     "php",
-    "gulp"
+    "gulp",
+    "drupal"
   ],
-  "author": "oroce <robert@oroszi.net>",
+  "author": "Yogev Priel <yograf@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oroce/gulp-jade-php/issues"
+    "url": "https://github.com/yograf/gulp-jade-drupal/issues"
   },
-  "homepage": "https://github.com/oroce/gulp-jade-php",
+  "homepage": "https://github.com/yograf/gulp-jade-drupal",
   "dependencies": {
     "gulp-util": "^3.0.0",
     "jade": "^1.7.0",
-    "jade-php": "0.1.1",
+    "jade-drupal": "0.1.1",
     "through2": "^0.5.1"
   },
   "devDependencies": {

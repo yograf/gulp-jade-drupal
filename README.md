@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/oroce/gulp-jade-php.png?branch=master)](https://travis-ci.org/oroce/gulp-jade-php)
-gulp-jade-php
+gulp-jade-drupal
 =============
 
 Compiles [jade-php](https://github.com/viniwrubleski/jade-php) templates using gulp.
@@ -8,7 +8,7 @@ This module is based on the well written [gulp-jade](https://github.com/phated/g
 
 ### Usage
 
-    var jade = require('gulp-jade-php');
+    var jade = require('gulp-jade-drupal');
 
     gulp.task('templates', function() {
       gulp.src('./views/**/*.jade')
